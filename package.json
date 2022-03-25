@@ -2,6 +2,11 @@
   "name": "todo_app",
   "version": "0.1.0",
   "private": true,
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,7 +19,13 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@chakra-ui/react": "^1.8.6",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@supabase/supabase-js": "^1.31.2",
+    "dotenv": "^16.0.0",
     "eslint": "8.11.0",
-    "eslint-config-next": "12.1.0"
+    "eslint-config-next": "12.1.0",
+    "framer-motion": "^4.1.17"
   }
 }
